@@ -1,0 +1,17 @@
+package com;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class AddressInfo implements CustomerDetails {
+
+	public void getBasicInformation() {
+		
+		String city = "surat";
+		String pin = "368596";
+		
+		System.out.println(city+" "+pin);
+
+	}
+
+}

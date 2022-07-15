@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;oops.OOPS011&apos; to &apos;OOPS011_InterfaceDemo&apos;&#x0D;&#x0A;- Original project: &apos;Learning_Corejava&apos;&#x0D;&#x0A;- Original element: &apos;oops.OOPS011&apos;&#x0D;&#x0A;- Renamed element: &apos;oops.OOPS011_InterfaceDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OOPS011&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;oops{OOPS011.java[OOPS011" matchStrategy="1" name="OOPS011_InterfaceDemo" qualified="false" references="true" similarDeclarations="false" stamp="1646190574325" textual="false" version="1.0"/>
+</session>

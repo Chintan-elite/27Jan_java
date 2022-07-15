@@ -1,0 +1,10 @@
+127.0.0.1 - - [24/Jun/2022:08:37:04 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:37:06 +0530] "GET /HibernateWeb/index.jsp HTTP/1.1" 200 516
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:37:06 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:37:14 +0530] "GET /HibernateWeb/display HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:37:32 +0530] "POST /HibernateWeb/reg HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:37:43 +0530] "GET /HibernateWeb/display HTTP/1.1" 200 567
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:37:45 +0530] "GET /HibernateWeb/update?action=update&&uid=1 HTTP/1.1" 200 541
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:37:51 +0530] "POST /HibernateWeb/reg HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:37:56 +0530] "GET /HibernateWeb/display HTTP/1.1" 200 570
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:08:38:00 +0530] "GET /HibernateWeb/update?action=delete&&uid=1 HTTP/1.1" 200 343

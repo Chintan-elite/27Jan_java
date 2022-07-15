@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="A004_Spring_hibernateTemplete2"/>
+<aop-project name="A001_springcore"/>
+<aop-project name="A003_Spring_jdbcTemplete"/>
+</aop-reference-model>

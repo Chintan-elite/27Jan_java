@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HashsetDemo.java&apos; to &apos;Learning_Corejava/src/collection&apos;&#x0D;&#x0A;- Original project: &apos;Learning_Corejava&apos;&#x0D;&#x0A;- Destination element: &apos;Learning_Corejava/src/collection&apos;&#x0D;&#x0A;- Original element: &apos;collection.HashsetDemo.java&apos;" description="Copy compilation unit" destination="/src&lt;collection" element1="/src&lt;collection{HashsetDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1646969377051" units="1" version="1.0"/>
+</session>

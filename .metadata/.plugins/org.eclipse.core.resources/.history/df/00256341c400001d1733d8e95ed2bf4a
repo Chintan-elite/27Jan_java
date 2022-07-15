@@ -1,0 +1,10 @@
+package com;
+
+public class LoanAccount implements BankAccount {
+
+	public void getBalnce() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

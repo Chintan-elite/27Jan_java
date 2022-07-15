@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;004_hibernate_web/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;002_Hibernate-onetomany&apos;&#x0D;&#x0A;- Destination element: &apos;004_hibernate_web/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     002_Hibernate-onetomany/src/main/java/model&#x0D;&#x0A;     002_Hibernate-onetomany/src/main/java/resources" description="Copy packages" destination="=004_hibernate_web/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;model" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;resources" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1656645850052" version="1.0"/>
+</session>

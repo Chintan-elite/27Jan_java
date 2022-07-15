@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;Learnig_Web_JSP/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;ServletChaining&apos;&#x0D;&#x0A;- Destination element: &apos;Learnig_Web_JSP/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ServletChaining/src/main/java/com&#x0D;&#x0A;     ServletChaining/src/main/java/util" description="Copy packages" destination="=Learnig_Web_JSP/src\/main\/java" element1="/src\/main\/java&lt;com" element2="/src\/main\/java&lt;util" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1651805395469" version="1.0"/>
+</session>

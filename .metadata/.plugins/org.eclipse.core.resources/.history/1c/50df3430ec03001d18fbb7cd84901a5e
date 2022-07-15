@@ -1,0 +1,31 @@
+package main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import dao.StudentDao;
+import model.Student;
+
+public class StudentCrud {
+	public static void main(String[] args) {
+		
+		
+		Student std = new Student();
+		std.setId(1);
+		std.setUname("Krushit");
+		std.setEmail("krushit@gmail.com");
+		std.setPass("Tops123");
+		
+		
+		ApplicationContext context =new ClassPathXmlApplicationContext("applicationcontaxt.xml");
+		
+		StudentDao dao =  context.getBean("dao", StudentDao.class);
+		//dao.addStudent(std);
+		
+		//dao.updateStudent(std);
+		
+		dao.deleteStudent(1);
+		
+		
+	}
+}

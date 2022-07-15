@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;util&apos; to &apos;AjaxDemo/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;MVC_pettern&apos;&#x0D;&#x0A;- Destination element: &apos;AjaxDemo/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;MVC_pettern/src/main/java/util&apos;" description="Copy package" destination="=AjaxDemo/src\/main\/java" element1="/src\/main\/java&lt;util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1653448729241" version="1.0"/>
+</session>

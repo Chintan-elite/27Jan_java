@@ -1,0 +1,10 @@
+package com;
+
+public class AddressInfo implements CustomerDetails {
+
+	public void getBasicInformation() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

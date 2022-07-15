@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+	<bean id="std" class="com.Student" autowire="byType">
+	<property name="id" value="10"></property>
+	<property name="name" value="Tops"></property>
+	<property name="email" value="tops@gmial.com"></property>
+	<property name="sub">
+	<list>
+	<value>Java</value>
+	<value>Php</value>
+	<value>Android</value>
+	</list>
+	</property>
+	<property name="lang">
+	<set>
+	<value>Gujarati</value>
+	<value>English</value>
+	<value>Hindi</value>
+	</set>
+	</property>
+	<!-- <property name="adr">
+	<list>
+	<ref bean="adr1"/>
+	<ref bean="adr2"/>
+	</list>
+	</property>  -->
+	<!-- <property name="str" ref="str"></property> -->
+	</bean>
+	
+	<bean id="adr1" class="com.Address">
+	<property name="city" value="Surat"></property>
+	<property name="state" value="Gujarat"></property>
+	<property name="country" value="India"></property>
+	</bean>
+	
+	<bean id="adr2" class="com.Address">
+	<property name="city" value="Baroada"></property>
+	<property name="state" value="Gujarat"></property>
+	<property name="country" value="India"></property>
+	</bean>
+
+	<bean id="str" class="com.Stream">
+	<property name="code" value="S001"></property>
+	<property name="name" value="Science"></property>
+	</bean>
+
+
+</beans>

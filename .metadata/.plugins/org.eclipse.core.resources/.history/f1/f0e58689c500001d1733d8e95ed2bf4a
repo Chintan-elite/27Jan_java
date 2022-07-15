@@ -1,0 +1,16 @@
+package com;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+//		BankAccount savingAccount = new SavinfAccount();
+//		BankAccount loanAccount = new LoanAccount();
+//		BankAccount currentAccount = new CurrentAccount();
+//		savingAccount.getBalnce();
+//		loanAccount.getBalnce();
+//		currentAccount.getBalnce();
+//		
+		
+		
+	}
+}

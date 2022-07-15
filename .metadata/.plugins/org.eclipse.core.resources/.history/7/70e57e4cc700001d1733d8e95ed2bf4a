@@ -1,0 +1,16 @@
+package com;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class SavingAccount implements BankAccount {
+
+	CustomerDetails customerDetails;
+	
+	public void getBalnce() {
+		
+		System.out.println("This is Saving Account balnce !!!");
+		basicInfo.getBasicInformation();
+	}
+
+}
