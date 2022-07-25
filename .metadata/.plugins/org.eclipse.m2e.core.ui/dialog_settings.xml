@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Classwork\27Jan_java\A005_springMVC\src\main\java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,18 +45,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.tops"/>
-			<item value="com.spring"/>
-			<item value="cm.spring"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="SpringMVC"/>
-			<item value="Spring_jdbcTemplete"/>
-			<item value="A002_springCore_annotation"/>
-			<item value="S001_springcore"/>
-			<item value="HibernateAll"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

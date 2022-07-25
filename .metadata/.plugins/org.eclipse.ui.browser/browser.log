@@ -78,3 +78,9 @@ Jul 22, 2022 09:57:24.176 [10076:8216:0722/095724.172:ERROR:device_event_log_imp
 Jul 22, 2022 09:57:24.178 [10076:8216:0722/095724.174:ERROR:device_event_log_impl.cc(214)] [09:57:24.173] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
 Jul 22, 2022 09:57:24.278 [10076:8216:0722/095724.277:ERROR:device_event_log_impl.cc(214)] [09:57:24.276] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
 Jul 22, 2022 09:58:20.728 [10076:10704:0722/095820.728:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+Jul 25, 2022 09:48:41.426 NEW SESSION
+Jul 25, 2022 09:48:41.426 [9912:16680:0725/094841.424:ERROR:device_event_log_impl.cc(214)] [09:48:41.423] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jul 25, 2022 09:48:41.427 [9912:16680:0725/094841.426:ERROR:device_event_log_impl.cc(214)] [09:48:41.425] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jul 25, 2022 09:48:41.469 [9912:16680:0725/094841.469:ERROR:device_event_log_impl.cc(214)] [09:48:41.469] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+Jul 25, 2022 09:49:37.914 [9912:16440:0725/094937.913:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

@@ -35,7 +35,9 @@ public class UserDaoImpl implements Userdao {
 	@Override
 	public User getUserById(int id) {
 		Session s = sessionFactory.getCurrentSession();
-		return s.load(User.class, id);
+		User u =  s.load(User.class, id);
+		System.out.println(u.getId()+" "+u.getEmail());
+		return u;
 	}
 
 	@Override
