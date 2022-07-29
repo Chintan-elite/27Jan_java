@@ -5,4 +5,9 @@
     <typeInfo handle="=A005_springMVC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{UserService.java[UserService" modifiers="513" timestamp="1658464677109"/>
     <typeInfo handle="=A005_springMVC/C:\/Program Files\/Java\/jdk-11.0.12\/lib\/jrt-fs.jar`java.base=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;java.nio.file.attribute(UserDefinedFileAttributeView.class[UserDefinedFileAttributeView" modifiers="1537" timestamp="1638856486080"/>
     <typeInfo handle="=A005_springMVC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{Userdao.java[Userdao" modifiers="513" timestamp="1658464894841"/>
+    <typeInfo handle="=A006_SpringMVC_UI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1658726819372"/>
+    <typeInfo handle="=A006_SpringMVC_UI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1658726907442"/>
+    <typeInfo handle="=A007_E-Shop/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{UserProfileService.java[UserProfileService" modifiers="513" timestamp="1659071095422"/>
+    <typeInfo handle="=A007_E-Shop/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{UserProfileDao.java[UserProfileDao" modifiers="513" timestamp="1659071160357"/>
+    <typeInfo handle="=A007_E-Shop/C:\/Program Files\/Java\/jdk-11.0.12\/lib\/jrt-fs.jar`java.base=/module=/true=/=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;java.nio.file.attribute(UserPrincipal.class[UserPrincipal" modifiers="1537" timestamp="1638856486080"/>
 </typeInfoHistroy>

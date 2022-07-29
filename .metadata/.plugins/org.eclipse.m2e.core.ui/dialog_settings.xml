@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Classwork\27Jan_java\A006_SpringMVC_UI"/>
+			<item value="D:\Classwork\27Jan_java\A005_springMVC"/>
 			<item value="D:\Classwork\27Jan_java\A005_springMVC\src\main\java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,10 +28,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ecom.A007_E_Shop"/>
+			<item value="com.java.A006_SpringMVC_UI"/>
 		</list>
 		<list key="groupId">
+			<item value="com.ecom"/>
+			<item value="com.java"/>
 		</list>
 		<list key="artifactId">
+			<item value="A007_E-Shop"/>
+			<item value="A006_SpringMVC_UI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
