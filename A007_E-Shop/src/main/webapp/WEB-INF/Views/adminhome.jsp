@@ -13,15 +13,15 @@
     <meta name="description"
         content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
-    <title>Admin | home</title>
+    <title>Ample Admin Lite Template by WrapPixel</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="admin/plugins/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/favicon.png">
     <!-- Custom CSS -->
-    <link href="admin/plugins/bower_components/chartist/dist/chartist.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="admin/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css">
+    <link href="plugins/bower_components/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css">
     <!-- Custom CSS -->
-    <link href="admin/css/style.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -113,72 +113,7 @@
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
         <aside class="left-sidebar" data-sidebarbg="skin6">
-            <!-- Sidebar scroll-->
-            <div class="scroll-sidebar">
-                <!-- Sidebar navigation-->
-                <nav class="sidebar-nav">
-                    <ul id="sidebarnav">
-                        <!-- User Profile-->
-                        <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.html"
-                                aria-expanded="false">
-                                <i class="far fa-clock" aria-hidden="true"></i>
-                                <span class="hide-menu">Dashboard</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.html"
-                                aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu">Profile</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="basic-table.html"
-                                aria-expanded="false">
-                                <i class="fa fa-table" aria-hidden="true"></i>
-                                <span class="hide-menu">Basic Table</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="fontawesome.html"
-                                aria-expanded="false">
-                                <i class="fa fa-font" aria-hidden="true"></i>
-                                <span class="hide-menu">Icon</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="map-google.html"
-                                aria-expanded="false">
-                                <i class="fa fa-globe" aria-hidden="true"></i>
-                                <span class="hide-menu">Google Map</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="blank.html"
-                                aria-expanded="false">
-                                <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Blank Page</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="404.html"
-                                aria-expanded="false">
-                                <i class="fa fa-info-circle" aria-hidden="true"></i>
-                                <span class="hide-menu">Error 404</span>
-                            </a>
-                        </li>
-                        <li class="text-center p-20 upgrade-btn">
-                            <a href="https://www.wrappixel.com/templates/ampleadmin/"
-                                class="btn d-grid btn-danger text-white" target="_blank">
-                                Upgrade to Pro</a>
-                        </li>
-                    </ul>
-
-                </nav>
-                <!-- End Sidebar navigation -->
-            </div>
-            <!-- End Sidebar scroll-->
+           <jsp:include page="adminsidebar.jsp"></jsp:include>
         </aside>
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
@@ -578,9 +513,9 @@
     <script src="js/custom.js"></script>
     <!--This page JavaScript -->
     <!--chartis chart-->
-    <script src="admin/plugins/bower_components/chartist/dist/chartist.min.js"></script>
-    <script src="admin/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="admin/js/pages/dashboards/dashboard1.js"></script>
+    <script src="plugins/bower_components/chartist/dist/chartist.min.js"></script>
+    <script src="plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="js/pages/dashboards/dashboard1.js"></script>
 </body>
 
 </html>

@@ -25,8 +25,9 @@ public class UserProfileDaoImpl implements UserProfileDao {
 
 	@Override
 	public List<UserProfile> getallUsers() {
-		// TODO Auto-generated method stub
-		return null;
+	
+		Session session = sessionFactory.getCurrentSession();
+		return session.createQuery("from UserProfile").list();
 	}
 
 	@Override

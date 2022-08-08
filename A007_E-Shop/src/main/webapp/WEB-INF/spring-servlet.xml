@@ -26,8 +26,9 @@
 <mvc:resources location="/WEB-INF/Resources/js/" mapping="/js/**"></mvc:resources>
 <mvc:resources location="/WEB-INF/Resources/fonts/" mapping="/fonts/**"></mvc:resources>
 <mvc:resources location="/WEB-INF/Resources/img/" mapping="/img/**"></mvc:resources>
+<mvc:resources location="/WEB-INF/Resources/bootstrap/" mapping="/bootstrap/**"></mvc:resources>
+<mvc:resources location="/WEB-INF/Resources/plugins/" mapping="/plugins/**"></mvc:resources>
 
-<mvc:resources location="/WEB-INF/Resources/admin/" mapping="/admin/**"></mvc:resources>
 
 
 	<bean
@@ -47,7 +48,8 @@
 		<property name="annotatedClasses">
 			<list>
 				<value>com.model.UserProfile</value>
-			
+				<value>com.model.Category</value>
+				<value>com.model.Product</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
