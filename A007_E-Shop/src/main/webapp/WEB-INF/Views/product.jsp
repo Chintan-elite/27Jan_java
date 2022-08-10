@@ -172,17 +172,53 @@
                         <div class="card">
                             <div class="card-body">
                             
-                            <form:form class="form-horizontal form-material" modelAttribute="product">
+                            <form:form class="form-horizontal form-material" modelAttribute="product" action="addProduct" method="post" enctype="multipart/form-data">
+                             <form:hidden path="productId"/>
                              <div class="form-group mb-4">
                                         <label class="col-sm-12">Select Category</label>
 
                                         <div class="col-sm-12 border-bottom">
-                                            <select class="form-select shadow-none p-0 border-0 form-control-line">
+                                            <select class="form-select shadow-none p-0 border-0 form-control-line" name="catid">
                                                 <c:forEach var="dt" items="${categories}">
-                                                <option>${dt.getCategoryName()}</option>
+                                                <option value="${dt.getCategoryId()}">${dt.getCategoryName()}</option>
                                                 </c:forEach>
                                             </select>
                                         </div>
+                                    </div>
+                                    
+                                    <div class="form-group mb-4">
+                                       <form:label path="productName" class="col-md-12 p-0">Product Name</form:label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                           <form:input path="productName" class="form-control p-0 border-0"/>
+                                         </div>
+                                    </div>
+                                    
+                                                    	<div class="form-group mb-4">
+                                       <form:label path="price" class="col-md-12 p-0">Price</form:label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                           <form:input path="price" class="form-control p-0 border-0"/>
+                                         </div>
+                                    </div>
+                                    
+                                    <div class="form-group mb-4">
+                                       <form:label path="company" class="col-md-12 p-0">Company</form:label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                           <form:input path="company" class="form-control p-0 border-0"/>
+                                         </div>
+                                    </div>
+                                    
+                                    <div class="form-group mb-4">
+                                       <form:label path="qty" class="col-md-12 p-0">Qty</form:label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                           <form:input path="qty" class="form-control p-0 border-0"/>
+                                         </div>
+                                    </div>
+                                    
+                                     <div class="form-group mb-4">
+                                      <label class="col-md-12 p-0">Product Image</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                           <input type="file" name="file" class="form-control p-0 border-0">
+                                         </div>
                                     </div>
                                     
                                     <div class="form-group mb-4">
@@ -198,6 +234,49 @@
                     <!-- Column -->
                 </div>
                 <!-- Row -->
+                 <div class="row">
+                    <div class="col-sm-12">
+                        <div class="white-box">
+                            <h3 class="box-title">Product</h3>
+                            
+                            <div class="table-responsive">
+                                <table class="table text-nowrap">
+                                    <thead>
+                                        <tr>
+                                           
+                                            <th class="border-top-0">Product Name</th>
+                                             <th class="border-top-0">Price</th>
+                                              <th class="border-top-0">Company</th>
+                                               <th class="border-top-0">Qty</th>
+                                                <th class="border-top-0">Category</th>
+                                                 <th class="border-top-0">image</th>
+                                            <th class="border-top-0" colspan="2">Action</th>
+                                           
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <c:forEach var="dt" items="${products}">
+                                    	 <tr>
+                                            <td>${dt.getProductName()}</td>
+                                            <td>${dt.getPrice()}</td>
+                                            <td>${dt.getCompany()}</td>
+                                            <td>${dt.getQty()}</td>
+                                            <td>${dt.getCategory().getCategoryName()}</td>
+                                            <td>${dt.getImage()}</td>
+                                            <td><a href="updateProduct?uid=${dt.getProductId()}" class="btn btn-primary">Update</a></td>
+                                            
+                                             <td><a href="deleteProduct?uid=${dt.getProductId()}" class="btn btn-danger">Delete</a></td>
+                                           
+                                           
+                                        </tr>
+                                    </c:forEach>
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
                 <!-- ============================================================== -->

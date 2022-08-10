@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="aside"/>
+		<item key="selection" value="Product"/>
 		<list key="findhistory">
+			<item value="Prodcut"/>
+			<item value="Category"/>
 			<item value="aside"/>
 			<item value="style.css"/>
 			<item value="style"/>
@@ -18,6 +20,8 @@
 			<item value="Student"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Product"/>
+			<item value="Prodcut"/>
 			<item value="style1.css"/>
 			<item value="assets"/>
 			<item value="Employee"/>

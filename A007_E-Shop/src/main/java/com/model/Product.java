@@ -11,8 +11,8 @@ public class Product {
 	int productId;
 	
 	String productName;
-	double Price;
-	String Company;
+	double price;
+	String company;
 	int qty;
 	String image;
 	
@@ -36,19 +36,19 @@ public class Product {
 	}
 
 	public double getPrice() {
-		return Price;
+		return price;
 	}
 
 	public void setPrice(double price) {
-		Price = price;
+		this.price = price;
 	}
 
 	public String getCompany() {
-		return Company;
+		return company;
 	}
 
 	public void setCompany(String company) {
-		Company = company;
+		this.company = company;
 	}
 
 	public int getQty() {

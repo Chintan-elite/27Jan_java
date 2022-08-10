@@ -112,3 +112,10 @@ Aug 05, 2022 09:46:29.228 [6324:6668:0805/094629.228:ERROR:device_event_log_impl
 Aug 05, 2022 09:46:29.230 [6324:6668:0805/094629.230:ERROR:device_event_log_impl.cc(214)] [09:46:29.229] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
 Aug 05, 2022 09:46:29.284 [6324:6668:0805/094629.284:ERROR:device_event_log_impl.cc(214)] [09:46:29.283] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
 Aug 05, 2022 09:47:25.959 [6324:3464:0805/094725.959:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+Aug 10, 2022 09:37:02.406 NEW SESSION
+Aug 10, 2022 09:37:02.406 [13680:13608:0810/093702.405:ERROR:device_event_log_impl.cc(214)] [09:37:02.405] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 10, 2022 09:37:02.414 [13680:13608:0810/093702.405:ERROR:device_event_log_impl.cc(214)] [09:37:02.405] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+Aug 10, 2022 09:37:02.416 [13680:13608:0810/093702.406:ERROR:device_event_log_impl.cc(214)] [09:37:02.407] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 10, 2022 09:37:59.559 [13680:7720:0810/093759.559:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Aug 10, 2022 10:37:21.627 [13680:13608:0810/103721.627:ERROR:interface_endpoint_client.cc(665)] Message 5 rejected by interface blink.mojom.WidgetHost
