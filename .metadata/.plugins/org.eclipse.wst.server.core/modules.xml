@@ -7,6 +7,7 @@
   <module moduleId="org.eclipse.jst.jee.server:AjaxDemo" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:HibernateWeb" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:004_hibernate_web" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:ImageUploading" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Servletcontext-config" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Ajax_Crud" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:CustomeJSTL" serverId="Tomcat v9.0 Server at localhost"/>
