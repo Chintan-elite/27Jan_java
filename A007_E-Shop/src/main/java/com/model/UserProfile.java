@@ -2,6 +2,12 @@ package com.model;
 
 import javax.persistence.*;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 @Entity 
 @Table(name="user_profile")
@@ -10,8 +16,17 @@ public class UserProfile {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int userId;
+	
+	@Size(min = 1 ,message ="firstname can not be blank")
 	String firstName;
+	
+	@Size(min = 1, message = "lastname can not be blank")
 	String lastName;
+	
+	
+	//@Pattern(regexp="^([a-zA-Z0-9\\-\\.\\_]+)'+'(\\@)([a-zA-Z0-9\\-\\.]+)'+'(\\.)([a-zA-Z]{2,4})$", message = "Invalid formate")
+	@NotEmpty(message =  "email can not be balnk")
+	@Email
 	String email;
 	String phno;
 	String gender;

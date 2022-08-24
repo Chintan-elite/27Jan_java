@@ -35,4 +35,10 @@ public class UserProfileServiceImpl implements UserProfileService {
 		userProfileDao.deleteUser(id);
 	}
 
+	@Override
+	public UserProfile logincheck(UserProfile u) {
+		
+		return userProfileDao.logincheck(u);
+	}
+
 }

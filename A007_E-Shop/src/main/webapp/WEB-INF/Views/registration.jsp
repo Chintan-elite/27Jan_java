@@ -112,20 +112,7 @@
     </header>
     <!-- Header Section End -->
 
-    <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-option">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb__links">
-                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                        <span>Contact</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb End -->
+   
 
     <!-- Contact Section Begin -->
     <section class="contact spad">
@@ -138,17 +125,20 @@
                             <form:form action="userRegistration" method="post" modelAttribute="userProfile">
                            	<form:label path="firstName">FirstName</form:label>
                             <form:input path="firstName"/>
+                            <form:errors path="firstName" class="text-danger"></form:errors><br>
                             	<form:label path="lastName">LastName</form:label>
                             <form:input path="lastName"/>
+                            <form:errors path="lastName" class="text-danger"></form:errors><br>
                             	<form:label path="email">Email</form:label>
                             <form:input path="email"/>
+                            <form:errors path="email" class="text-danger"></form:errors><br>
                             	<form:label path="phno">Phone</form:label>
                             <form:input path="phno"/>
                             	<form:label path="password">Password</form:label>
                             <form:input path="password"/>
                             <form:label path="gender">Gender</form:label>
                             <form:radiobutton path="gender" value="male"/>Male
-                             <form:radiobutton path="gender" value="female"/>Female
+                             <form:radiobutton path="gender" value="female" />Female
                              
                              <input type="submit" class="site-btn">
                             </form:form>

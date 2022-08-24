@@ -10,4 +10,5 @@ public interface UserProfileService {
 	public List<UserProfile> getallUsers();
 	public UserProfile getUserById(int id);
 	public void deleteUser(int id);
+	public UserProfile logincheck(UserProfile u);
 }

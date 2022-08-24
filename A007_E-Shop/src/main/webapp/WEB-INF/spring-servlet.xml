@@ -28,6 +28,7 @@
 <mvc:resources location="/WEB-INF/Resources/img/" mapping="/img/**"></mvc:resources>
 <mvc:resources location="/WEB-INF/Resources/bootstrap/" mapping="/bootstrap/**"></mvc:resources>
 <mvc:resources location="/WEB-INF/Resources/plugins/" mapping="/plugins/**"></mvc:resources>
+<mvc:resources location="/WEB-INF/Resources/productImage/" mapping="/pimage/**"></mvc:resources>
 
 
 

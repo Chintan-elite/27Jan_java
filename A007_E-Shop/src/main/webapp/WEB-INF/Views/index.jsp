@@ -29,6 +29,9 @@
 </head>
 
 <body>
+	<%
+	  String user =(String)session.getAttribute("user");
+	%>
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -89,7 +92,17 @@
                 <div class="col-lg-3">
                     <div class="header__right">
                         <div class="header__right__auth">
-                            <a href="userLogin">Login</a>
+                        <%
+                        	if(user == null)
+                        	{ %>
+                        		 <a href="userLogin">Login</a>
+                        	<%}
+                        	else
+                        	{ %>
+                        		Welcome , <%=user%> <a href="userLogout">Logout</a>
+                        	<%}
+                        %>
+                           
                         </div>
                         <ul class="header__right__widget">
                             <li><span class="icon_search search-switch"></span></li>
@@ -195,10 +208,10 @@
         <c:forEach var="pdata" items="${products}">
                 <div class="col-lg-3 col-md-4 col-sm-6 mix women">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/product/${pdata.getImage()}">
+                    <div class="product__item__pic set-bg" data-setbg="pimage/${pdata.getImage()}">
                         <div class="label new">New</div>
                         <ul class="product__hover">
-                            <li><a href="img/product/${pdata.getImage()}" class="image-popup"><span class="arrow_expand"></span></a></li>
+                            <li><a href="pimage/${pdata.getImage()}" class="image-popup"><span class="arrow_expand"></span></a></li>
                             <li><a href="#"><span class="icon_heart_alt"></span></a></li>
                             <li><a href="#"><span class="icon_bag_alt"></span></a></li>
                         </ul>

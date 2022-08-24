@@ -42,4 +42,12 @@ public class UserProfileDaoImpl implements UserProfileDao {
 
 	}
 
+	@Override
+	public UserProfile logincheck(UserProfile u) {
+		
+		Session session = sessionFactory.getCurrentSession();
+		UserProfile profile =  (UserProfile) session.createQuery("from UserProfile p where p.email='"+u.getEmail()+"' and p.password='"+u.getPassword()+"'").uniqueResult();
+		return profile;
+	}
+
 }

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" isELIgnored="false"%>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
@@ -95,7 +95,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <form class="form-horizontal form-material">
-                                    
+                                    <span class="text-danger">${err}</span>
                                     <div class="form-group mb-4">
                                         <label for="example-email" class="col-md-12 p-0">Email</label>
                                         <div class="col-md-12 border-bottom p-0">

@@ -7,7 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%
+	String admin = (String)session.getAttribute("adminUser");
+	if(admin==null)
+	{
+		request.setAttribute("err", "Please login first");
+		request.getRequestDispatcher("adminlogin.jsp").forward(request, response);
+		
+	}
 
+%>
  <!-- Sidebar scroll-->
             <div class="scroll-sidebar">
                 <!-- Sidebar navigation-->

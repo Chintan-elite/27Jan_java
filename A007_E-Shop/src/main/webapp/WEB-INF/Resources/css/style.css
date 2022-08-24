@@ -3083,6 +3083,20 @@ ol {
 	margin-bottom: 20px;
 }
 
+.radioButton
+{
+	
+	height: 50px;
+	width: 25%;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #444444;
+	border: 1px solid #e1e1e1;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}
+
 .contact__form form input::-webkit-input-placeholder {
 	color: #444444;
 }
