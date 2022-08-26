@@ -46,8 +46,8 @@
             <li><a href="#"><span class="icon_heart_alt"></span>
                 <div class="tip">2</div>
             </a></li>
-            <li><a href="#"><span class="icon_bag_alt"></span>
-                <div class="tip">2</div>
+            <li><a href="shop-cart"><span class="icon_bag_alt"></span>
+                <div class="tip">0</div>
             </a></li>
         </ul>
         <div class="offcanvas__logo">
@@ -109,8 +109,8 @@
                             <li><a href="#"><span class="icon_heart_alt"></span>
                                 <div class="tip">2</div>
                             </a></li>
-                            <li><a href="#"><span class="icon_bag_alt"></span>
-                                <div class="tip">2</div>
+                            <li><a href="shop-cart"><span class="icon_bag_alt"></span>
+                                <div class="tip">0</div>
                             </a></li>
                         </ul>
                     </div>
@@ -213,7 +213,7 @@
                         <ul class="product__hover">
                             <li><a href="pimage/${pdata.getImage()}" class="image-popup"><span class="arrow_expand"></span></a></li>
                             <li><a href="#"><span class="icon_heart_alt"></span></a></li>
-                            <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                            <li><a href="addCart?pid=${pdata.getProductId()}"><span class="icon_bag_alt"></span></a></li>
                         </ul>
                     </div>
                     <div class="product__item__text">

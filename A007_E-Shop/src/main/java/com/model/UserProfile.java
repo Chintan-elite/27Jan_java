@@ -1,5 +1,7 @@
 package com.model;
 
+import java.util.List;
+
 import javax.persistence.*;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
@@ -31,6 +33,10 @@ public class UserProfile {
 	String phno;
 	String gender;
 	String password;
+	
+	@ManyToMany(mappedBy = "userProfiles")
+	List<ShopCart> shopCarts;
+	
 	public int getUserId() {
 		return userId;
 	}

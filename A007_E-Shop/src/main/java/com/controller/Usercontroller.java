@@ -12,6 +12,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.model.UserProfile;
@@ -90,6 +91,7 @@ public class Usercontroller {
 		{
 			HttpSession session = req.getSession();
 			session.setAttribute("user", profile.getFirstName());
+			session.setAttribute("userId", profile.getUserId());
 			model.setViewName("index");
 		}
 		return model;
@@ -103,4 +105,21 @@ public class Usercontroller {
 		return "index";
 	}
 	
+	//************************shoping cart**************
+	
+	@RequestMapping("/shop-cart")
+	public String openCart()
+	{
+		return "shop-cart";
+	}
+	
+	@RequestMapping("/addCart")
+	public void addToCart(@RequestParam("pid") int pid,HttpServletRequest req)
+	{
+		System.out.println("product id is : "+pid);
+		HttpSession session = req.getSession();
+		int uid = (int) session.getAttribute("userId");
+		System.out.println("user id is : "+uid);
+		
+	}
 }

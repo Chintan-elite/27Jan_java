@@ -16,6 +16,8 @@ public class Product {
 	int qty;
 	String image;
 	
+	
+	
 	@ManyToOne(cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH})
 	Category category;
 

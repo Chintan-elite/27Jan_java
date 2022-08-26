@@ -51,6 +51,7 @@
 				<value>com.model.UserProfile</value>
 				<value>com.model.Category</value>
 				<value>com.model.Product</value>
+				<value>com.model.ShopCart</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
